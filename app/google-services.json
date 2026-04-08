@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413128099182",
+    "project_id": "smartbuddyai-622b1",
+    "storage_bucket": "smartbuddyai-622b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413128099182:android:f19b4126e278ec1fc22d7f",
+        "android_client_info": {
+          "package_name": "com.example.smartbuddyai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKn2s8runXNwWHaxHKvNaVgWRQ9GmQ0Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

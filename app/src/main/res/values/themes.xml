@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.SmartBuddyAI" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
