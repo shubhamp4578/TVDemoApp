@@ -1,6 +1,6 @@
 # 📺 Android TV Learning App
 
-> A feature-rich Android TV application built as a **personal study project** to explore and deeply understand Android TV development — including Leanback UI, ExoPlayer integration, Firebase backend, focus navigation, and quiz-based learning flows.
+> A feature-rich Android TV application built as a **personal study project** to explore and deeply understand Android TV development — including Compose UI, ExoPlayer integration, Firebase backend, focus navigation, and quiz-based learning flows.
 
 ---
 
@@ -85,7 +85,7 @@ Android TV development is a niche but powerful domain within the Android ecosyst
 | Technology | Purpose |
 |---|---|
 | **Kotlin** | Primary language |
-| **Android TV / Leanback Library** | TV-optimized UI components (BrowseSupportFragment, etc.) |
+| **Android TV ** | TV-optimized UI components through Compose |
 | **ExoPlayer** | Video playback engine |
 | **Firebase Firestore** | Course data, video metadata, quiz questions |
 | **Firebase Auth** | User authentication and personalized progress |
@@ -98,8 +98,8 @@ Android TV development is a niche but powerful domain within the Android ecosyst
 ## 🧩 Key Android TV Concepts Implemented
 
 - **D-pad Focus Navigation** — every interactive element is correctly focusable and navigable using a TV remote
-- **Leanback BrowseFragment** — used for structured home screen rows (Continue Watching, Recommended)
-- **Custom Presenter classes** — for rendering card views in Leanback's `ArrayObjectAdapter`
+- **Compose** — used for structured home screen rows (Continue Watching, Recommended)
+- **Custom Presenter classes** — for rendering card views in Compose
 - **ExoPlayer lifecycle management** — player properly pauses/resumes with Activity lifecycle, releases resources on destroy
 - **TV-safe margins and overscan handling** — UI elements account for TV overscan zones
 - **Side navigation rail** — persistent left navigation bar with Home, Search, and Player icons — always visible, focus-traversable
@@ -122,7 +122,6 @@ Android TV development is a niche but powerful domain within the Android ecosyst
 ## 💡 What I Learned
 
 - Android TV is fundamentally different from phone/tablet development — focus management is critical and must be explicitly designed
-- Leanback library has a steep learning curve but provides the right abstractions for TV UX patterns
 - ExoPlayer gives fine-grained control over playback that MediaPlayer simply can't match
 - Firebase makes it easy to build a content backend quickly, but structuring Firestore for efficient queries on a TV (no infinite scroll, no pull-to-refresh) requires upfront planning
 - Quiz-after-video is a powerful learning reinforcement pattern and surprisingly straightforward to implement once the player completion callback is properly hooked
